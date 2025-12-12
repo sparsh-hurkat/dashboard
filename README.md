@@ -1,6 +1,7 @@
 # Dashboard
 
-https://sparsh-hurkat.github.io/dashboard/
+**Project hosted here: [https://sparsh-hurkat.github.io/dashboard/](https://sparsh-hurkat.github.io/dashboard/)**
+
 
 A high-performance, enterprise-grade React dashboard designed to demonstrate the handling of massive datasets, complex dynamic forms, and real-time analytics with zero client-side lag.
 
