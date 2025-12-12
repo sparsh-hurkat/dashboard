@@ -1,0 +1,4 @@
+{
+  "name": "Nexus Analytics Dashboard",
+  "description": "A high-performance, enterprise-grade React dashboard showcasing large dataset handling with TanStack Virtualization, Recharts, and AI-powered insights using Google Gemini."
+}
