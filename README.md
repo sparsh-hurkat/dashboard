@@ -10,7 +10,7 @@ Modern enterprise dashboards often suffer from performance bottlenecks when hand
 
 ### 1. High-Performance Data Grid (Virtualization)
 *   **The Problem:** Rendering a standard HTML table with 50,000 rows creates 50,000+ DOM nodes, causing the browser to freeze and consuming massive amounts of RAM.
-*   **The Solution:** We utilize **TanStack Virtual** to implement "Windowing".
+*   **The Solution:** I utilized **TanStack Virtual** to implement "Windowing".
 *   **How it works:** Only the rows currently visible in the viewport (plus a small overscan buffer) are rendered in the DOM. As the user scrolls, rows are recycled.
 *   **Result:** The application maintains **60 FPS** scrolling performance whether there are 100 rows or 1,000,000 rows.
 
@@ -27,10 +27,6 @@ Modern enterprise dashboards often suffer from performance bottlenecks when hand
 ### 4. Interactive Data Visualization
 *   **Library:** Recharts.
 *   **Optimization:** SVG-based rendering optimized for responsive containers, providing smooth tooltips and transitions even when visualizing complex aggregated data.
-
-### 5. AI-Powered Insights
-*   **Integration:** Google Gemini API.
-*   **Functionality:** An embedded AI Analyst that parses the transaction sample data to answer natural language queries (e.g., "What is the trend for software sales in Europe?").
 
 ---
 
